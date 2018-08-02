@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "didiDemo/AppDelegate.m"
-            timestampString = "554876509.649685"
+            timestampString = "554893276.650378"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "-application:openURL:options:"
             landmarkType = "7">
          </BreakpointContent>

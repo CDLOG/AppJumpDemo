@@ -78,6 +78,7 @@
 //    协议+地址方式
     if ([@"dididi" isEqualToString:url.scheme]) {
         if ([@"1" isEqualToString:url.host]) {
+            NSLog(@"跳过来的%@",url.query); 
             UIStoryboard *board = [UIStoryboard storyboardWithName: @"Main" bundle: nil];
             
             

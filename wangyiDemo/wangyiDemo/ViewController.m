@@ -23,7 +23,7 @@
 //地址方式
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    NSURL *url = [NSURL URLWithString:@"dididi://1"];
+    NSURL *url = [NSURL URLWithString:@"dididi://1?wangyiDemo"];
     if ([[UIApplication sharedApplication] canOpenURL:url]) {
         [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
     }else
